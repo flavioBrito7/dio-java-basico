@@ -1,4 +1,5 @@
 public class ParametrosInvalidosException extends Exception{
-
-   System.out.println("O segundo parâmetro deve ser maior que o primeiro!");
+    public ParametrosInvalidosException(){    
+        System.out.println("\nO segundo parâmetro deve ser maior que o primeiro!\n");      
+    }
 }
