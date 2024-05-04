@@ -1,6 +1,6 @@
 package gadgets;
 public interface ReprodutorMusical {
-    public void tocarMusica();
-    public void pausarMusica();
-    public void selecionarMusica();
+    abstract void tocarMusica();
+    abstract void pausarMusica();
+    abstract void selecionarMusica();
 }

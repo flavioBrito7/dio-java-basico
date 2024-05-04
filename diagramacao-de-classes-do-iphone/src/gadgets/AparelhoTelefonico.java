@@ -1,6 +1,6 @@
 package gadgets;
 public interface AparelhoTelefonico {    
-    public void ligar();
-    public void atender();
-    public void iniciarCorreioVoz();
+    abstract void ligar();
+    abstract void atender();
+    abstract void iniciarCorreioVoz();
 }
